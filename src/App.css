@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.sent {
+  justify-content: flex-end;
+}
+
+.received {
+  justify-content: flex-start;
+  color: blue;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.message img {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 2.5em;
+}
+
+.message div {
+  display: flex;
+  flex-direction: column;
+}
+
+.message p {
+  margin: 0;
+}
+
+.message p span {
+  font-size: 0.8em;
+  color: gray;
+}
